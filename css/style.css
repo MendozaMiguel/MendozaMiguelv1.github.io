@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+}
+body{
+  /*background-image: url(../gallery/background.jpg);*/
+  background-color: black;
+}
+
+.margintop20px{
+  margin-top: 20px;
+}
+.bordertop{
+  border-top: 1px solid #e7e7e7;
+}
+.hauteur5vh{
+  height: 5vh;
+}
+.red{
+  background-color: yellow;
+  height: 100px;
+}
+
+
+.positionabs, .test{
+  position: absolute;
+  height: 550px;
+  width: 97%;
+}
+
+.test{
+  height: 200px;
+  width: 520px;
+  background-color: transparent;
+  right: 300px;
+  bottom: 230px;
+  z-index: 1;
+  box-shadow: inset 0px 0px 24px 31px rgba(0,0,0,0.37);
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+}
+.test h1{
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+}
+.test h1:hover{
+  background-color: rgba(37, 140, 172, 0.66);
+  border-radius: 10px 10px 10px 10px;
+}
+.test h2{
+  color: white;
+  font-weight: bold;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+.test h2:hover{  background-color: rgba(37, 140, 172, 0.66);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.hauteur15px{
+  height: 85vh;
+  position: fixed;
+  background-color: rgb(12, 52, 143);
+  border-radius: 200px 200px 100px 10px;
+}
+
+rgb(167, 114, 84)
+
+/*--------------------------footer copyright----------------*/
+.textcenter{
+  text-align: center;
+  margin-top: 70vh;
+}
+.textcenter a{
+    /*background-color: yellow;*/
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(173, 15, 236);
+    color: white;
+}
+
+.textcenter a:hover{
+  text-decoration: none;
+}
+.textcenter p a:hover{
+  /*background-color: red;*/
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: inset 0px 0px 8px 64px rgba(79,167,173,0.58);
+}
+
+
+/*----------------------------------------PARTIE CV--------------------------------------*/
+/*----------PARTIE GAUCHE------*/
+.photo{
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 200px;
+    /*background-color: yellow;*/
+    border: 6px solid white;
+    background-image: url(../gallery/photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*.photo img{
+  height: 150px;
+  background-position: center;
+}*/
+/*-----------FIN PARTIE GAUCHE-----------*/
+
+
+
+/*---------PARTIE DROITE------*/
+.contenucomp{
+  height: 380px;
+  background-color: rgba(143, 50, 187, 0.46);
+  text-align: center;
+}
+.contenucomp img {
+  height: 40px;
+  width: 40px;
+}
+
+/*------iconcs-----*/
+.fa-html5{
+  color: orange;
+}
+.fa-css3{
+  color: rgb(6, 110, 185);
+}
+.fa-wordpress{
+  color: white;
+}
+.fa-github{
+  color: black;
+}
+.fa-envelope-o{
+  color: red;
+}
+.fa-linkedin-square{
+  color: black;
+}
+.fa-linkedin-square:hover{
+  color: rgb(6, 110, 185);
+}
+.fa-github:hover{
+  color: rgb(42, 4, 61);
+}
+.fa-envelope-o:hover{
+  color: white;
+}
+.fa-download{
+  color: rgb(19, 238, 52);
+}
+.fa-download:hover{
+  color: rgb(63, 82, 185);
+}
+/*-----fin icons-----*/
+
+.borderR{
+  border-radius: 50px 50px 50px 50px;
+}
+.contenuparc{
+  height: 200px;
+  background-color: rgba(143, 50, 187, 0.46);
+  text-align: center;
+}
+.contenufor{
+  background-color: rgba(143, 50, 187, 0.46);
+  text-align: center;
+}
+.contenulang{
+  height: 150px;
+  background-color: rgba(143, 50, 187, 0.46);
+  text-align: center;
+}
+.contenuinfo{
+  height: 150px;
+  background-color: rgba(143, 50, 187, 0.46);
+  text-align: center;
+}
+.police{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.contenulang:hover{
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenucomp:hover{
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenufor:hover{
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenuparc:hover{
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenuinfo:hover{
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenuinfo h1, .contenuparc h1, .contenufor h1, .contenucomp h1, .contenulang h1{
+  background: #ff00cc; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff00cc , #333399); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Audiowide', cursive;
+color: white;
+text-shadow: 2px 2px #FF0000;
+border-radius: 50px 5px 50px 5px;
+}
+.interieur{
+  height: 100px;
+  /*border: 2px solid blue;*/
+}
+.vide{
+  height: 50px;;
+}
+.vide2{
+  height: 100px;
+}
+.border1{
+  /*border: 2px solid yellow;*/
+  text-align: center;
+}
+/*FIN PARTIE GAUCHE*/
+.titreCV, h1 ,h2 {
+  font-family: 'VT323', monospace;
+  color: white;
+}
+.titreCV p{
+  font-family: sans-serif;
+}
+.titreCV a{
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: white;
+}
+.titreCV a:hover{
+  text-decoration: none;
+}
+.row2{
+  color: black;
+}
+
+.clear{
+  clear: both;
+}
+/*.hauteur15px, .col-lg-3{
+  width: 24%;
+}*/
+
+/*----------BOUTON POUR REVENIR EN HAUT DE PAGE---------*/
+.bouton{
+  position: absolute;
+  position: fixed;
+  left: 1100px;
+  top: 600px;
+}
+
+.bouton i:hover{
+ color: white;
+}
+
+.bouton i{
+  color: rgb(12, 52, 143);
+}
+
+.pulse {
+ -webkit-animation-name: pulse;
+ animation-name: pulse;
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ animation-iteration-count: infinite;
+ }
+ @-webkit-keyframes pulse {
+ 0% {
+ -webkit-transform: scale3d(1, 1, 1);
+ transform: scale3d(1, 1, 1);
+ }
+ 50% {
+ -webkit-transform: scale3d(1.05, 1.05, 1.05);
+ transform: scale3d(1.05, 1.05, 1.05);
+ }
+ 100% {
+ -webkit-transform: scale3d(1, 1, 1);
+ transform: scale3d(1, 1, 1);
+ }
+ }
+ @keyframes pulse {
+ 0% {
+ -webkit-transform: scale3d(1, 1, 1);
+ transform: scale3d(1, 1, 1);
+ }
+ 50% {
+ -webkit-transform: scale3d(1.05, 1.05, 1.05);
+ transform: scale3d(1.25, 1.25, 1.25);
+ }
+ 100% {
+ -webkit-transform: scale3d(1, 1, 1);
+ transform: scale3d(1, 1, 1);
+ }
+ }
+×
+/*----------FIN BOUTON POUR REVENIR EN HAUT DE PAGE---------*/
